@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#about #btn
+{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 40px;
+    word-break: break-all;
+      
+}
+#about #btn:hover
+{
+    transition: all 0.4s;
+    background-color: white;
+    color: black;
+
+}
+/*-----header section start-------*/
+header{
+    background-color: #142954;
+    height: auto;
+}
+header .col-md-6 h2{
+line-height: 60px;
+}
+header .col-md-6 h4{
+    line-height: 60px;
+    }
+    header .col-md-6 h4 span{
+        line-height: 60px;
+        }
+/*-----header section end-------*/
+/*-----Banner section Start-------*/
+main{
+    height: auto;
+    background-position: center;
+    background: linear-gradient(rgba(23, 61, 92, 0.6),rgba(11, 12, 11, 0.5)),url(../img/1st\ image.jpg) no-repeat;
+    background-size:cover ;
+    height: auto;
+   
+}
+main .col-md-5 form
+{
+    background-color: #142954 ;
+    padding: 30px;
+}
+main .col-md-7
+{
+    padding-top: 80px;
+}
+
+/*-----Banner section end-------*/
+
+/*-----People section start-------*/
+
+#people p{
+    word-break: break-all;
+}
+/*-----People section end-------*/
+
+/*-----about section start-------*/
+
+#about{
+    background-color: #142954;
+    word-break: break-all;
+}
+/*-----about section end-------*/
+/*-----lorem section start-------*/
+#lorem p{
+word-break: break-all;
+}
+/*-----Lorem section end-------*/
+
+/*-----footer section start-------*/
+
+footer{
+    background-color: #142954;
+    color: white;
+}
+/*-----Footer section end-------*/
+
+
+/*max-width 992px */
+@media screen and (max-width:991px) {
+    header h2{
+        font-size: 20px;
+    }
+    header span{
+        font-size:15px ;
+    }
+    header h4{
+        font-size:18px ;
+    }
+    
+}
+/*max-width 992px */
+
+/*max-width 768px */
+@media screen and (max-width:767px)
+{
+header .col-md-6{
+    text-align: center;
+    justify-content: center;
+}
+main .col-md-7{
+    text-align: center;
+    padding-top: 10px;
+}
+
+}
+
+/*max-width 768px */
+
+/*max-width 576px */
+@media screen and (max-width:575px)
+{
+    header h2{
+        font-size: 18px;
+        justify-content: center;
+    }
+    span{
+        font-size: 15px;
+        justify-content: center;
+    }
+    header h4{
+        font-size: 17px ;
+    }
+}
+/*max-width 576px */
+
